@@ -4,6 +4,7 @@ use std::error::Error;
 pub struct Config {
     pub query: String,
     pub file_path: String,
+    pub debug: bool, // enables debug logs
 }
 
 impl Config {
